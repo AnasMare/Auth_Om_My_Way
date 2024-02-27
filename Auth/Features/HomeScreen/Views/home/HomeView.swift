@@ -36,6 +36,8 @@ struct HomeView: View {
             }
             HStack{
                 ButtonView(title: "Transporter", image: "transpoter_icon")
+                Spacer()
+                    .frame(width: UIScreen.main.bounds.width * 0.06)
                 ButtonView(title: "sender", image: "sender_icon")
             }
             Spacer()

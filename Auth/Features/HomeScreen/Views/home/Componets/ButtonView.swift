@@ -13,8 +13,7 @@ struct ButtonView: View {
     let image:String
     var body: some View {
         VStack(){
-            Button(action: {
-                   }) {
+            Button(action: { }) {
                       VStack{
                           Image(image)
                               .font(.system(size: 24))
